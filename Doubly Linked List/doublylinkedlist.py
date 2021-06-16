@@ -31,7 +31,7 @@ class DoublyLinkedList:
             self.current = self.first
         else:
             self.current.next = new_data
-            new_data.before = self.current
+            new_data.previous = self.current
             self.current = new_data
     
     def to_list(self):
@@ -45,6 +45,6 @@ class DoublyLinkedList:
         """
         aux = self.first
         while aux is not None:
-            print("Before: {}, Next: {}, Data: {}".format(aux.before, aux.next, 
+            print("Before: {}, Next: {}, Data: {}".format(aux.previous, aux.next, 
                                                           aux.data))
             aux = aux.next

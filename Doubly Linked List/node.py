@@ -7,5 +7,5 @@ Created on Tue Jun 15 15:06:02 2021
 class Node:
     def __init__(self, data):
         self.next = None
-        self.before = None
+        self.previous = None
         self.data = data
