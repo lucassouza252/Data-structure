@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jun 16 15:32:12 2021
-
-@author: lucas
-"""
 from node import Node
 
 class MyStack:
@@ -33,7 +28,7 @@ class MyStack:
         """
         Returns
         -------
-        data: Any Value Saved Before
+        data: Any Value Saved Before.
         """
         data = self.current.data
         self.current = self.current.previous

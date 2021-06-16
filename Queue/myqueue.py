@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jun 16 15:20:38 2021
-
-@author: lucas
-"""
 from node import Node
 
 class MyQueue:

@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Jun 15 15:16:19 2021
-
-@author: lucas
-"""
 from node import Node
 
 class DoublyLinkedList:
@@ -14,7 +9,6 @@ class DoublyLinkedList:
     def add(self, data):
         """
         Description: Add data in the list and configure before and after.
-        
         Parameters
         ----------
         data : Any Value.
@@ -22,7 +16,6 @@ class DoublyLinkedList:
         Returns
         -------
         None.
-
         """
         new_data = Node(data)
         
@@ -36,12 +29,11 @@ class DoublyLinkedList:
     
     def to_list(self):
         """
-        Description: Print all values of the list.
+        Description: Print all values of the list.  
         
         Returns
         -------
         None.
-
         """
         aux = self.first
         while aux is not None:

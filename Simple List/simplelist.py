@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 14 15:20:08 2021
-
-@author: lucas
-"""
 from node import Node
 
 class SimpleList:
@@ -15,7 +10,6 @@ class SimpleList:
     def add(self, data):
         """
         Description: Add new data in list.
-        
         Parameters
         ----------
         data: Any Value.
@@ -38,14 +32,13 @@ class SimpleList:
     def isin(self, data):
         """
         Description: Check if data is in list.
-        
         Parameters
         ----------
         data: Any Value.
 
         Returns
         -------
-        bool: If value in list, returns True, else, returns False;
+        bool: If value in list, returns True, else, returns False.
         """
         aux = self.first
         
@@ -57,8 +50,7 @@ class SimpleList:
     
     def to_list(self):
         """
-        Description: Print all values in list
-            
+        Description: Print all values in list. 
         Parameters
         ----------
         None
